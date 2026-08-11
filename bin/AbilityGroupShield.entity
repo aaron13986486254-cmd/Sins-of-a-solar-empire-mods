@@ -1,0 +1,72 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffGroupShieldTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Corvette"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4000.000000
+	Level:1 4000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "TitanAbility_GroupShield_Buff_ActivateSelf"
+	mediumEffectName "TitanAbility_GroupShield_Buff_ActivateSelf"
+	largeEffectName "TitanAbility_GroupShield_Buff_ActivateSelf"
+	soundID "EFFECT_GROUPSHIELD"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenManyTargetsHaveHullDamage"
+onlyAutoCastWhenTotalHullDamageExceedsAmount
+	Level:0 400.000000
+	Level:1 555.000000
+	Level:2 710.000000
+	Level:3 810.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 60.000000
+	Level:3 60.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 80.000000
+	Level:2 70.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_GROUPSHIELD_NAME"
+descStringID "IDS_ABILITY_GROUPSHIELD_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_GROUPSHIELD"
+smallHudIcon "HUDICON_ABILITY_GROUPSHIELD"
+infoCardIcon ""

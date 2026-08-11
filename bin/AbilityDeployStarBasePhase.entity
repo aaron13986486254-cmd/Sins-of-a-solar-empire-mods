@@ -1,0 +1,59 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "CreateStarBase"
+instantActionTriggerType "AlwaysPerform"
+starBaseType "StarBasePhase"
+placementRadius
+	Level:0 1000.000000
+	Level:1 1000.000000
+	Level:2 1000.000000
+	Level:3 1000.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DEPLOYSTARBASEPHASE"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 2575.000000
+	Level:1 2575.000000
+	Level:2 2575.000000
+	Level:3 2575.000000
+metalCost
+	Level:0 310.000000
+	Level:1 310.000000
+	Level:2 310.000000
+	Level:3 310.000000
+crystalCost
+	Level:0 325.000000
+	Level:1 325.000000
+	Level:2 325.000000
+	Level:3 325.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DEPLOYSTARBASEPHASE"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DEPLOYSTARBASEPHASE_NAME"
+descStringID "IDS_ABILITY_DEPLOYSTARBASEPHASE_DESC"
+hudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
+smallHudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
+infoCardIcon ""

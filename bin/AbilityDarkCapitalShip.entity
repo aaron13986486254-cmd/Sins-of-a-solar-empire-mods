@@ -1,0 +1,92 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 50.000000
+	maxFleetPoints 50.000000
+	requiredShipCount 0
+	randomShipCount 6
+	randomShip
+		type "CAPITALSHIP_PHASEBATTLESHIP"
+		weight 1
+	randomShip
+		type "CAPITALSHIP_PHASEBATTLESHIP2"
+		weight 1
+	randomShip
+		type "CAPITALSHIP_PHASECARRIER"
+		weight 1
+	randomShip
+		type "CAPITALSHIP_PHASECOLONY"
+		weight 1
+	randomShip
+		type "CAPITALSHIP_PHASESCOUT"
+		weight 1
+	randomShip
+		type "CAPITALSHIP_PHASESIEGE"
+		weight 1
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveCapitalCrew"
+creditCost
+	Level:0 2010.000000
+	Level:1 2010.000000
+	Level:2 2010.000000
+	Level:3 2010.000000
+metalCost
+	Level:0 270.000000
+	Level:1 270.000000
+	Level:2 270.000000
+	Level:3 270.000000
+crystalCost
+	Level:0 170.000000
+	Level:1 170.000000
+	Level:2 170.000000
+	Level:3 170.000000
+requiredShipSlots
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+requiredCapitalShipSlots
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKCAPITALSHIP_NAME"
+descStringID "IDS_ABILITY_DARKCAPITALSHIP_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DARKCAPITALSHIP"
+smallHudIcon "HUDICON_ABILITY_DARKCAPITALSHIP"
+infoCardIcon ""

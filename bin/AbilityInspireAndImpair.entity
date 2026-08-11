@@ -1,0 +1,59 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "ApplyBuffToLocalOrbitBody"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffInspireAndImpairPlanet"
+targetFilter
+	numOwnerships 4
+	ownership "Friendly"
+	ownership "AlliedOrEnemy"
+	ownership "Player"
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName "TitanAbility_InspireImpair_ActivateAthena"
+	mediumEffectName "TitanAbility_InspireImpair_ActivateAthena"
+	largeEffectName "TitanAbility_InspireImpair_ActivateAthena"
+	soundID "EFFECT_INSPIREANDIMPAIR"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 2
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 120.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 150.000000
+	Level:1 120.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_INSPIREANDIMPAIR_NAME"
+descStringID "IDS_ABILITY_INSPIREANDIMPAIR_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_INSPIREANDIMPAIR"
+smallHudIcon "HUDICON_ABILITY_INSPIREANDIMPAIR"
+infoCardIcon ""

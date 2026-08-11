@@ -1,0 +1,84 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 1
+spawnShips
+	minFleetPoints 90.000000
+	maxFleetPoints 90.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "FrigatePhaseLight"
+		weight 4
+	randomShip
+		type "FrigatePhaseLongRange"
+		weight 5
+	randomShip
+		type "FrigatePhaseHeavy"
+		weight 6
+	randomShip
+		type "FrigatePhaseAntiFighter"
+		weight 3
+	randomShip
+		type "CorvettePhaseLoyalist"
+		weight 2
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.000000
+spawnShipsMaxStartingHullPerc 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+creditCost
+	Level:0 3300.000000
+	Level:1 3300.000000
+	Level:2 3300.000000
+	Level:3 3300.000000
+metalCost
+	Level:0 700.000000
+	Level:1 700.000000
+	Level:2 700.000000
+	Level:3 700.000000
+crystalCost
+	Level:0 430.000000
+	Level:1 430.000000
+	Level:2 430.000000
+	Level:3 430.000000
+requiredShipSlots
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ABILITYACCESS_DARKFLEET"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_DARKCOMBATFLEET_NAME"
+descStringID "IDS_ABILITY_DARKCOMBATFLEET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DARKCOMBATFLEET"
+smallHudIcon "HUDICON_ABILITY_DARKCOMBATFLEET"
+infoCardIcon ""
